@@ -132,13 +132,27 @@ main h3 {
   margin: 0rem;
 }
 aside {
+  position: sticky;
+  top: 0px;
   background-color: #23272a;
   width: 25%;
   color: #ffffff;
 }
+.aside-sticky {
+  position: sticky;
+  top: 5%;
+}
 aside .aside-header {
   margin-left: 5%;
   margin-right: 2.5%;
+}
+aside .aside-nav {
+  margin-left: 5%;
+  margin-right: 2.5%;
+}
+aside .aside-nav ul {
+  margin: 0rem;
+  padding: 0rem;
 }
 
 a:hover {
@@ -156,11 +170,25 @@ a {
     rgba(232, 163, 255, 1) 100%
   );
 }
-li {
+main li {
   margin-left: 5%;
   margin-right: 10%;
 
+  text-align: center;
+}
+li {
   text-decoration: none;
   list-style: none;
-  text-align: center;
+}
+#positive {
+  color: green;
+}
+#happy {
+  color: yellow;
+}
+#entertainer {
+  color: orange;
+}
+#extrovert {
+  color: deepskyblue;
 }
