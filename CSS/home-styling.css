@@ -114,6 +114,7 @@ main h3 {
   background-color: #0222319c;
   padding: 2%;
   height: 19rem;
+  width: 100%;
 }
 
 .portfol-item p,
@@ -141,15 +142,10 @@ aside {
 .aside-sticky {
   position: sticky;
   top: 5%;
-}
-aside .aside-header {
   margin-left: 5%;
   margin-right: 2.5%;
 }
-aside .aside-nav {
-  margin-left: 5%;
-  margin-right: 2.5%;
-}
+
 aside .aside-nav ul {
   margin: 0rem;
   padding: 0rem;
@@ -191,4 +187,27 @@ li {
 }
 #extrovert {
   color: deepskyblue;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    width: 60%;
+  }
+  aside {
+    width: 40%;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .xpbar {
+    width: 80%;
+  }
+  .box-container {
+    display: flex;
+    max-width: 100%;
+  }
+  .portfol-item {
+  }
+  .portfol-box {
+  }
 }
