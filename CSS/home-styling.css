@@ -49,7 +49,7 @@ main {
   color: #ffffff;
 }
 main .main-header {
-  margin-right: 5%;
+  margin-right: 3%;
   margin-left: 2.5%;
 }
 .school-container {
@@ -105,12 +105,31 @@ main h3 {
   border: 1px solid white;
 }
 .box-container {
-  display: flex;
-  max-width: 20%;
-  border: 1px solid rgb(63, 63, 63);
+  display: inline-flex;
+  max-width: 24.3%;
+
+  border: 1px solid rgb(255, 255, 255);
 }
 .portfol-item {
-  background-color: #686868;
+  background-color: #0222319c;
+  padding: 2%;
+  height: 19rem;
+}
+
+.portfol-item p,
+.portfol-item h3 {
+  text-align: center;
+}
+.portfol-item p {
+  height: 9rem;
+}
+.portfol-list-container {
+  display: flexbox;
+}
+.portfol-list {
+  align-items: flex-end;
+  padding: 0rem;
+  margin: 0rem;
 }
 aside {
   background-color: #23272a;
@@ -136,4 +155,12 @@ a {
     rgba(255, 205, 245, 1) 63%,
     rgba(232, 163, 255, 1) 100%
   );
+}
+li {
+  margin-left: 5%;
+  margin-right: 10%;
+
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
 }
