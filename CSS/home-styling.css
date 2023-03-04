@@ -176,6 +176,9 @@ li {
   text-decoration: none;
   list-style: none;
 }
+#email {
+  font-size: 18px;
+}
 #current-course,
 #time-till-graduation {
   color: green;
@@ -210,5 +213,13 @@ li {
   .portfol-item {
   }
   .portfol-box {
+  }
+  #footer-mail {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #footer-mail {
+    font-size: 14px;
   }
 }
