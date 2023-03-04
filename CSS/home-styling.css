@@ -45,7 +45,7 @@ h2 {
 main {
   background-color: #2c2f33;
   width: 75%;
-  height: 200rem;
+  height: auto;
   color: #ffffff;
 }
 main .main-header {
@@ -176,7 +176,8 @@ li {
   text-decoration: none;
   list-style: none;
 }
-#positive {
+#current-course,
+#time-till-graduation {
   color: green;
 }
 #happy {
