@@ -102,19 +102,19 @@ main h3 {
   border-radius: 0.3rem;
 }
 .portfol-container {
-  border: 1px solid white;
 }
 .box-container {
   display: inline-flex;
   max-width: 24.3%;
-
-  border: 1px solid rgb(255, 255, 255);
 }
 .portfol-item {
   background-color: #0222319c;
+
   padding: 2%;
   height: 19rem;
   width: 100%;
+  border: 1px solid rgb(232, 163, 255, 15%);
+  border-radius: 0.2rem;
 }
 
 .portfol-item p,
@@ -151,6 +151,11 @@ aside .aside-nav ul {
   padding: 0rem;
 }
 
+main #profile-pic {
+  display: inline-flex;
+  width: 30%;
+  color: #ffffff4e;
+}
 a:hover {
   text-decoration: underline;
   background-color: rgba(255, 230, 148, 0.212);
